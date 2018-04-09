@@ -1,0 +1,227 @@
+/*farm.html鱼场首页*/
+.farm{
+    background-image: url(../img/bg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.head .left,.head .right{
+    background-color: transparent;
+    color:#ff6967;
+}
+.head .right{margin-right: 7.9rem;}
+.right2 {
+    height: 100%;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #ff6967;
+    font-size: 0.7rem;
+}
+.share_btn{
+    display: inline-block;
+    height: 0.86rem;
+    vertical-align: bottom;
+}
+.farm .top{
+    margin-top: 0px;
+    height:5.5rem;
+}
+.top .back,.top .reload{
+    top:78%;
+}
+.farm_info{
+    display: inline-block;
+    width: 22%;
+    height: 1.2rem;
+    background-color: #fff5c0;
+    border-radius: 0;
+    border: 1px solid #b27936;
+    margin-right: 10px;
+}
+.farm_info img{
+    height: 100%;
+    float: left;
+}
+.yeji{
+    position: absolute;
+    top:0.4rem;
+    left:44%;
+}
+.jinbi{
+    position: absolute;
+    top:0.4rem;
+    left:68.2%;
+}
+.egg{
+    top:1.9rem;
+}
+.chicken{
+    top:1.9rem;
+    left:44%;
+}
+.yspan,.jspan,.nlabel,.nspan, .espan, .cspan{
+    font-size: 12px;
+    color:brown;
+    line-height: 1.2rem;
+    float: right;
+}
+.farm_info1{
+    display: inline-block;
+    width: 22%;
+    height: 1.2rem;
+    position: absolute;
+    top:1.9rem;
+    left:68.2%;
+}
+.head_friend, .head_bag{
+    float: inherit;
+    width: auto;
+    margin-top: 0px;
+}
+.farm_info1 img{
+    display: inline-block;
+    height: 130%;
+}
+.farm_info1 img:nth-of-type(1){
+    margin: 0 3%;
+}
+.farmboard{
+    top:2.6rem;
+}
+.field{
+    margin-top: 25%;
+}
+.weilan_wrap{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+.weilan_img{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom:3px;
+}
+.friendin{
+    background-color: transparent;
+    border:none;
+}
+.number{
+    height: 2rem;
+    background-color: transparent;
+}
+.friend .sweep{
+    position: absolute;
+    width: 40%;
+    height: 2.4rem;
+    bottom: 1.6rem;
+    background-image: url(../img/yijiandasao.png);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    line-height: 2.4rem;
+    font-size: 0.8rem;
+}
+.friend .invite{
+    position: absolute;
+    width: 40%;
+    height: 2.4rem;
+    bottom: 1.6rem;
+    background-image: url(../img/yaoqinghuoban.png);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    line-height: 2.4rem;
+    font-size: 0.8rem;
+}
+
+.run{
+	width: 100%;
+	height: 26%;
+}
+.runss{
+	display: block;
+	width: 100%;
+	height: 159%;
+	background: url(../img/run.gif) no-repeat center;
+	background-size: 79%;	
+}
+.runfish1{
+    display: block;
+    width: 100%;
+    height: 159%;
+    background: url(../img/run1.gif) no-repeat center;
+    background-size: 79%;   
+}
+.login{display: block;width: 90%;margin: 10px auto 0;}
+.text1{height:38px;background-color: transparent;}
+.phonenumber, .password{display: block;box-sizing:border-box;width: 100%;padding-left:10px;background-color:#fff;left:0px;height:38px;line-height: 38px;border:none;}
+.yzm{display: block;box-sizing:border-box;width: 68%;padding-left:10px;background-color:#fff;left:0px;height:38px;line-height: 38px;border:none;}
+.btn{display: block;width: 78%;margin:0.75rem auto 0;}
+.deal{background: url(../img/bg.png);background-size: 100% 100%;width: 100%;height: 100%;background-attachment:fixed;position: fixed;top: 0;left: 0;z-index: 1;overflow-x: scroll;}
+.reg{display: block;width: 90%;background-color:#fbeae0;margin: 0 auto 10px;overflow: hidden;border:1px solid #ddcfc6;}
+.reg span{display: inline-block;width: 26%;height:38px;line-height: 38px;margin:0px;float: left;font-size: 14px;color:#b76432;box-sizing: border-box;padding-left: 5px;}
+.dealboard input[type="text"]{width: 70%;
+	display:inline-block;
+	background: rgb(218,230,192);
+	margin:0px;
+	border: none;
+	border-radius: 0;
+	background-color:transparent;
+	height:38px;
+	line-height: 38px;
+	outline: none;
+	text-indent: 0.5em;
+	clear: both;}
+.sexs{height:38px;line-height: 38px;font-size: 14px;}
+.reg1{background-color:transparent;border:none;margin-bottom: 0;}
+.sexselc{display: inline-block;width: 15px;height: 15px;background: url(../img/sex0.png) no-repeat center;background-size: 15px 15px;vertical-align: sub;margin-right: 3px;}
+.sexselc.active{display: inline-block;width: 15px;height: 15px;background: url(../img/sex1.png) no-repeat center;background-size: 15px 15px;vertical-align: sub;margin-right: 3px;}
+.dealsection {
+    width: 93%;
+    margin: 0 auto;
+    background-image: url(../img/board.png) !important;
+    background-size: 100% 100%; 
+    position: relative;
+    left: 0;
+    top: -20px;
+    z-index: 1;
+    height: 100%;
+}
+.dealboard {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: 90px;
+    background-image: none;
+    width: 80%;
+    height: 80%;
+    border-top: 1px solid transparent;
+    overflow-y: auto;
+}
+
+.lamp {
+    position: absolute;
+    width: 100%;
+	top: 5rem;
+    z-index: 0;
+    height: 1.6rem;
+    display: none;
+    background-image: url(../img/zoumadeng.png);
+}
+.lamp span{
+	position: absolute;
+	height: 100%;
+	left:0;
+	top: 0.2rem;
+	font-size: 0.9rem;
+	line-height: 1.1rem;
+    width: 12rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
